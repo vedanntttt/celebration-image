@@ -1,5 +1,8 @@
 {
-  "buildCommand": "",
-  "outputDirectory": ".",
-  "framework": "static"
+  "builds": [
+    {
+      "src": "**",
+      "use": "@vercel/static"
+    }
+  ]
 }
